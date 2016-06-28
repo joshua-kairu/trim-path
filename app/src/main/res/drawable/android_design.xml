@@ -99,7 +99,7 @@
 
     <path
 
-        android:name="i_dot"
+        android:name="android_i_dot"
 
         android:strokeWidth="3"
 
@@ -171,7 +171,7 @@
 
     <path
 
-        android:name="second_i_dot"
+        android:name="design_i_dot"
 
         android:strokeWidth="3"
 

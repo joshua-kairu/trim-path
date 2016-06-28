@@ -1,6 +1,5 @@
 package com.jlt.trimpath;
 
-import android.graphics.drawable.AnimatedVectorDrawable;
 import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -38,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
     /** VARIABLES */
 
-    /* Animated Vector Drawables */
+    /* Animated Vector Drawable Compats */
 
-    private AnimatedVectorDrawable writingAnimatedVectorDrawable; // the animated vector which will draw the writing
+    private AnimatedVectorDrawableCompat writingAnimatedVectorDrawable; // the animated vector which will draw the writing
 
     /* Image Views */
 
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
         // 3. initialize the animated vector
 
-        writingAnimatedVectorDrawable = ( AnimatedVectorDrawable ) getDrawable( R.drawable.animated_vector_android_design );
+        writingAnimatedVectorDrawable = AnimatedVectorDrawableCompat.create( this, R.drawable.animated_vector_write_android_design );
 
         // 4. put the animated vector within the image
 

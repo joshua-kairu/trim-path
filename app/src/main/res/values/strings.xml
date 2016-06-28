@@ -22,5 +22,24 @@
 -->
 
 <resources>
+
     <string name="app_name">Trim Path</string>
+
+    <string name="iv_handwriting_description">Handwritten Words</string>
+
+    <string name="write">Write</string>
+
+    <string name="clear">Clear</string>
+
+    <!-- The vector path names -->
+
+    <string name="vector_path_andro">andro</string>
+    <string name="vector_path_id">id</string>
+    <string name="vector_path_a_stroke">a_stroke</string>
+    <string name="vector_path_android_i_dot">android_i_dot</string>
+    <string name="vector_path_d">D</string>
+    <string name="vector_path_esig">esig</string>
+    <string name="vector_path_n">n</string>
+    <string name="vector_path_design_i_dot">design_i_dot</string>
+
 </resources>

@@ -53,7 +53,9 @@
 
         android:layout_gravity="center"
 
-        android:src="@drawable/android_design"
+        android:src="@drawable/animated_vector_write_android_design"
+
+        android:contentDescription="@string/iv_handwriting_description"
 
         />
 

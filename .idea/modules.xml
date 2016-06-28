@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///run/media/joshua/DATA/Documents/Coding/Android/AndroidStudioProjects/udacity-material-design-class-code-samples/trim-path/app/app.iml" filepath="/run/media/joshua/DATA/Documents/Coding/Android/AndroidStudioProjects/udacity-material-design-class-code-samples/trim-path/app/app.iml" />
-      <module fileurl="file:///run/media/joshua/DATA/Documents/Coding/Android/AndroidStudioProjects/udacity-material-design-class-code-samples/trim-path/trim-path.iml" filepath="/run/media/joshua/DATA/Documents/Coding/Android/AndroidStudioProjects/udacity-material-design-class-code-samples/trim-path/trim-path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trim-path.iml" filepath="$PROJECT_DIR$/trim-path.iml" />
     </modules>
   </component>
 </project>
