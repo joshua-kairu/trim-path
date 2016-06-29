@@ -41,7 +41,7 @@
 
         android:valueTo="1"
 
-        android:startOffset="1050"
+        android:startOffset="1000"
 
         android:duration="250"
 

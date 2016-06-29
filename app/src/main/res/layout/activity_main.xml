@@ -25,9 +25,11 @@
 
 <!-- the main activity to hold the place we will write -->
 
-<FrameLayout
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     xmlns:tools="http://schemas.android.com/tools"
 
@@ -35,7 +37,7 @@
 
     android:layout_height="match_parent"
 
-    android:onClick="onFrameLayoutClick"
+    android:padding="@dimen/layout_padding"
 
     tools:context=".MainActivity"
 
@@ -53,10 +55,80 @@
 
         android:layout_gravity="center"
 
-        android:src="@drawable/animated_vector_write_android_design"
-
         android:contentDescription="@string/iv_handwriting_description"
+
+        android:layout_centerInParent="true"
+
+        app:srcCompat="@drawable/animated_vector_write_android_design"
 
         />
 
-</FrameLayout>
+    <!-- LinearLayout for the buttons -->
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <!-- ImageButton for writing -->
+
+        <ImageButton
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:onClick="onWriteButtonClick"
+
+            android:contentDescription="@string/write"
+
+            app:srcCompat="@drawable/ic_create_24dp"
+
+            />
+
+        <!-- ImageButton for unwriting -->
+
+        <ImageButton
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:onClick="onUnwriteButtonClick"
+
+            android:contentDescription="@string/unwrite"
+
+            app:srcCompat="@drawable/ic_create_24dp_inverse"
+
+            />
+
+        <!-- ImageButton for clear -->
+
+        <ImageButton
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:onClick="onClearButtonClick"
+
+            android:contentDescription="@string/clear"
+
+            app:srcCompat="@drawable/ic_delete_black_24dp"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.jlt.trimpath;
 
+
 import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -93,12 +94,17 @@ public class MainActivity extends AppCompatActivity {
     // begin method onFrameLayoutClick
     public void onFrameLayoutClick( View view ) {
 
+    } // end method onFrameLayoutClick
+
+    // begin method onWriteButtonClick
+    public void onWriteButtonClick( View view ) {
+
         // 0. start the writing animation
 
         // 0. start the writing animation
 
         writingAnimatedVectorDrawable.start();
 
-    } // end method onFrameLayoutClick
+    } // end method onWriteButtonClick
 
 } // end activity MainActivity

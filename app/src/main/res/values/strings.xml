@@ -29,6 +29,8 @@
 
     <string name="write">Write</string>
 
+    <string name="unwrite">Unwrite</string>
+
     <string name="clear">Clear</string>
 
     <!-- The vector path names -->
