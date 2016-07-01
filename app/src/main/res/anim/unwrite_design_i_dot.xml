@@ -23,7 +23,7 @@
 
 -->
 
-<!-- Write the dot for the i in Android -->
+<!-- Unwrite the dot for the i in design -->
 
 <set
 
@@ -33,13 +33,15 @@
 
     <objectAnimator
 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
         android:propertyName="trimPathEnd"
 
-        android:valueFrom="0"
+        android:valueFrom="1"
 
-        android:valueTo="1"
+        android:valueTo="0"
 
-        android:startOffset="1305"
+        android:startOffset="820"
 
         android:duration="50"
 

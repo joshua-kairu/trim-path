@@ -79,13 +79,13 @@
 
         <ImageButton
 
+            android:id="@+id/am_ib_write"
+
             android:layout_width="0dp"
 
             android:layout_height="wrap_content"
 
             android:layout_weight="1"
-
-            android:onClick="onWriteButtonClick"
 
             android:contentDescription="@string/write"
 
@@ -97,13 +97,13 @@
 
         <ImageButton
 
+            android:id="@+id/am_ib_unwrite"
+
             android:layout_width="0dp"
 
             android:layout_height="wrap_content"
 
             android:layout_weight="1"
-
-            android:onClick="onUnwriteButtonClick"
 
             android:contentDescription="@string/unwrite"
 
@@ -115,13 +115,13 @@
 
         <ImageButton
 
+            android:id="@+id/am_ib_clear"
+
             android:layout_width="0dp"
 
             android:layout_height="wrap_content"
 
             android:layout_weight="1"
-
-            android:onClick="onClearButtonClick"
 
             android:contentDescription="@string/clear"
 

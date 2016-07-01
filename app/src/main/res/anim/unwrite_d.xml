@@ -23,7 +23,7 @@
 
 -->
 
-<!-- Write the dot for the i in Android -->
+<!-- Unwrite D in Design -->
 
 <set
 
@@ -35,13 +35,13 @@
 
         android:propertyName="trimPathEnd"
 
-        android:valueFrom="0"
+        android:valueFrom="1"
 
-        android:valueTo="1"
+        android:valueTo="0"
 
-        android:startOffset="1305"
+        android:startOffset="875"
 
-        android:duration="50"
+        android:duration="200"
 
         android:interpolator="@android:interpolator/accelerate_decelerate"
 

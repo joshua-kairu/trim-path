@@ -23,77 +23,107 @@
 
 -->
 
-<!-- The animated vector drawable that will do the writing  -->
+<!-- The animated vector drawable that will do the unwriting  -->
 
 <animated-vector
 
     xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:drawable="@drawable/write_android_design"
+    android:drawable="@drawable/unwrite_android_design"
 
     >
 
-    <target
+    <!--
 
-        android:name="andro"
+    The unwriting order is
+    n
+    esig
+    design i dot
+    D
+    id
+    android i dot
+    andro
+    android a stroke
 
-        android:animation="@anim/write_andro"
+    -->
 
-        />
-
-    <target
-
-        android:name="id"
-
-        android:animation="@anim/write_id"
-
-        />
-
-    <target
-
-        android:name="a_stroke"
-
-        android:animation="@anim/write_a_stroke"
-
-        />
-
-    <target
-
-        android:name="android_i_dot"
-
-        android:animation="@anim/write_android_i_dot"
-
-        />
-
-    <target
-
-        android:name="d"
-
-        android:animation="@anim/write_d"
-
-        />
-
-    <target
-
-        android:name="esig"
-
-        android:animation="@anim/write_esig"
-
-        />
+    <!-- n -->
 
     <target
 
         android:name="n"
 
-        android:animation="@anim/write_n"
+        android:animation="@anim/unwrite_n"
 
         />
+
+    <!-- esig -->
+
+    <target
+
+        android:name="esig"
+
+        android:animation="@anim/unwrite_esig"
+
+        />
+
+    <!-- design i dot -->
 
     <target
 
         android:name="design_i_dot"
 
-        android:animation="@anim/write_design_i_dot"
+        android:animation="@anim/unwrite_design_i_dot"
+
+        />
+
+    <!-- D -->
+
+    <target
+
+        android:name="d"
+
+        android:animation="@anim/unwrite_d"
+
+        />
+
+    <!-- id -->
+
+    <target
+
+        android:name="id"
+
+        android:animation="@anim/unwrite_id"
+
+        />
+
+    <!-- android i dot -->
+
+    <target
+
+        android:name="android_i_dot"
+
+        android:animation="@anim/unwrite_android_i_dot"
+
+        />
+
+    <!-- andro -->
+
+    <target
+
+        android:name="andro"
+
+        android:animation="@anim/unwrite_andro"
+
+        />
+
+    <!-- android a stroke -->
+
+    <target
+
+        android:name="a_stroke"
+
+        android:animation="@anim/unwrite_a_stroke"
 
         />
 
