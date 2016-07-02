@@ -101,11 +101,6 @@ public class MainActivity extends AppCompatActivity {
      * Other Methods
      */
 
-    // begin method onFrameLayoutClick
-    public void onFrameLayoutClick( View view ) {
-
-    } // end method onFrameLayoutClick
-
     @OnClick( R.id.am_ib_write )
     // begin method onWriteButtonClick
     void onWriteButtonClick( View view ) {
