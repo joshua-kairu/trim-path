@@ -4,11 +4,11 @@ The handwriting is on the Android. :wink:
 
 ## Introduction :point_up:
 
-Inside this repository is code for a sample Android app that shows how [vector images](link) can be used to illustrate handwriting. The app writes and unwrites (unwriting is the opposite of writing maybe?) The basis for this app was a similar one made for the [Material Design for Android Developers](https://www.udacity.com/course/material-design-for-android-developers--ud862) online [Udacity](https://www.udacity.com/) class. That app can be found in [this](https://github.com/udacity/ud862-samples) repo within a folder called [AndroidDesignTrimPath](https://github.com/udacity/ud862-samples/tree/master/AndroidDesignTrimPath).
+Inside this repository is code for a sample Android app that shows how [vector images](https://en.wikipedia.org/wiki/Vector_graphics) can be used to illustrate handwriting. The app writes and unwrites (unwriting is the opposite of writing maybe?) The basis for this app was a similar one made for the [Material Design for Android Developers](https://www.udacity.com/course/material-design-for-android-developers--ud862) online [Udacity](https://www.udacity.com/) class. That app can be found in [this](https://github.com/udacity/ud862-samples) repo within a folder called [AndroidDesignTrimPath](https://github.com/udacity/ud862-samples/tree/master/AndroidDesignTrimPath).
 
 ## Version History :package:
 
-**latest** 	[XML Test v1.0.0](https://github.com/joshua-kairu/xml-test/releases/download/v1.0/XML-Test-v1.0.0.apk) 	Saturday, July 2, 2016
+**latest** 	[Trim Path v1.0.0](https://github.com/joshua-kairu/trim-path/releases/download/v1.0.0/Trim-Path-v1.0.0.apk) 	Monday, July 11, 2016
 
 This repo tries its best to follow the [Semantic Versioning](http://semver.org/) guidelines.
 
@@ -26,15 +26,15 @@ This repo tries its best to follow the [Semantic Versioning](http://semver.org/)
 
 A video of this is here:point down:
 
-![Trim Path - Writing, Unwriting and Clearing the Handwriting](/run/media/joshua/DATA/Documents/Coding/Android/AndroidStudioProjects/udacity-0-material-design-class-code-samples/trim-path/screen-records/trim-path-2016-07-01-140001.gif) 
+![Trim Path - Writing, Unwriting and Clearing the Handwriting](screen-records/trim-path-2016-07-01-140001.gif) 
 
 ## How It Works
 
-The handwriting is simply a group of vector images. We animate the individual vectors' [clip path](link) to make it appear that we are writing and unwriting on the screen. This animation is done by manipulating the `xml android:trimPathEnd` property of the vectors. For writing, we animate this property from zero to one and for unwriting we animate it from one to zero.  
+The handwriting is simply a group of vector images. We animate the individual vectors' [clip path](https://developer.android.com/reference/android/graphics/drawable/VectorDrawable.html) to make it appear that we are writing and unwriting on the screen. This animation is done by manipulating the `xml android:trimPathEnd` property of the vectors. For writing, we animate this property from zero to one and for unwriting we animate it from one to zero.  
 
-Clearing is simply nullifying the image inside the [ImageView](link) that hosts the handrwriting.
+Clearing is simply nullifying the image inside the [ImageView](https://developer.android.com/reference/android/widget/ImageView.html) that hosts the handrwriting.
 
-The ordering of the clip path animation is crucial to the believability of the app. I tried to simply change the animation from zero to one to one to zero but since the order was still the writing order, it did not work. I needed to rearrange the order so that the unwriting animation could look as real as possible. These changes are seen in the [write_android_design.xml](link) and [unwrite_android_design.xml] files.
+The ordering of the clip path animation is crucial to the believability of the app. I tried to simply change the animation from zero to one to one to zero but since the order was still the writing order, it did not work. I needed to rearrange the order so that the unwriting animation could look as real as possible. These changes are seen in the [write_android_design.xml](app/src/main/res/drawable/write_android_design.xml) and [unwrite_android_design.xml](app/src/main/res/drawable/unwrite_android_design.xml) files.
 
 ## Abilities :muscle:
 
@@ -46,7 +46,7 @@ This app can:
 ## Limitations :worried:
 
 This app is a tutorial one. There are a couple things it cannot do:
-* It does not respond sweetly :sweet: to orientation changes.
+* It does not respond sweetly :candy: to orientation changes.
 * It does not let you choose what to write. He he.
 
 ## Possible Future Work :fast_forward:
